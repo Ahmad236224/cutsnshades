@@ -77,7 +77,7 @@ export function ServicesHeader() {
 export function Skin() {
   return (
     <section id="beauty" data-theme="light" className="relative overflow-hidden bg-gradient-to-b from-pearl to-blush/60 px-4 py-24 text-ink md:px-10 md:py-40">
-      <ChapterNo n="03" className="absolute -right-4 top-10 text-wine/30" />
+      <ChapterNo n="03" className="text-wine/60 md:right-6 md:top-10" />
       <div className="relative mx-auto grid max-w-[1600px] gap-12 md:grid-cols-12">
         <div className="md:col-span-5">
           <Eyebrow className="text-wine">03 — Skin &amp; aesthetics</Eyebrow>
@@ -149,7 +149,7 @@ export function Spmu() {
   ];
   return (
     <section data-theme="dark" className="relative overflow-hidden bg-char px-4 py-24 md:px-10 md:py-40">
-      <ChapterNo n="05" className="absolute -left-4 top-6 text-white/10" />
+      <ChapterNo n="05" className="text-fuchsia/70 md:left-10 md:top-6" />
       <div className="relative mx-auto max-w-[1600px]">
         <div className="grid gap-8 md:grid-cols-12">
           <div className="md:col-span-6 md:col-start-6">

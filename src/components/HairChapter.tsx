@@ -55,7 +55,7 @@ export default function HairChapter() {
   return (
     <section id="hair" data-theme="dark" className="relative bg-ink">
       <div className="relative mx-auto grid max-w-[1600px] gap-12 px-4 pb-16 pt-12 md:grid-cols-12 md:px-10 md:pb-24">
-        <ChapterNo n="01" className="absolute right-2 top-0 text-white/10 md:right-10" />
+        <ChapterNo n="01" className="text-fuchsia/70 md:right-10 md:top-0" />
         <div className="relative md:col-span-5">
           <Eyebrow className="text-blush">01 — Hair</Eyebrow>
           <Lines className="mt-8 text-[3.4rem] md:text-[6.5rem]" lines={["Shape.", "Color.", <em key="m" className="text-fuchsia">Movement.</em>]} />

@@ -29,7 +29,7 @@ export default function Bridal() {
 
   return (
     <section id="bridal" data-theme="dark" className="relative overflow-hidden bg-wine px-4 py-24 md:px-10 md:py-40">
-      <ChapterNo n="02" className="absolute -right-2 top-4 text-pearl/10" />
+      <ChapterNo n="02" className="text-blush/60 md:right-6 md:top-4" />
       <div className="relative mx-auto grid max-w-[1600px] gap-12 md:grid-cols-12">
         <div className="md:col-span-5">
           <Eyebrow className="text-blush">02 — Makeup &amp; bridal</Eyebrow>

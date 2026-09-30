@@ -29,7 +29,7 @@ export function ChapterNo({ n, className = "" }: { n: string; className?: string
     <span
       aria-hidden
       data-fade
-      className={`pointer-events-none select-none font-serif text-[9rem] leading-none text-transparent [-webkit-text-stroke:1px_currentColor] md:text-[16rem] ${className}`}
+      className={`pointer-events-none relative z-20 mb-4 block select-none font-serif text-[5.5rem] leading-[0.85] text-transparent [-webkit-text-stroke:1.5px_currentColor] md:absolute md:mb-0 md:text-[15rem] ${className}`}
     >
       {n}
     </span>

@@ -43,7 +43,7 @@ export default function Process() {
 
   return (
     <section ref={root} data-theme="dark" className="relative h-[100svh] overflow-hidden bg-char">
-      <div className="mx-auto grid h-full max-w-[1600px] grid-rows-[1fr_auto] gap-6 px-4 pb-24 pt-20 md:grid-cols-12 md:grid-rows-1 md:items-center md:gap-10 md:px-10 md:py-0">
+      <div className="mx-auto grid h-full max-w-[1600px] grid-rows-[1fr_auto] gap-6 px-4 pb-24 pt-20 md:grid-cols-12 md:grid-rows-1 md:items-center md:gap-10 md:px-10 md:py-0 max-md:pb-32">
         {/* Media stack */}
         <div className="relative order-1 h-full min-h-0 md:order-2 md:col-span-6 md:col-start-7 md:h-[74vh]">
           {STEPS.map((st, i) => (
